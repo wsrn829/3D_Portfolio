@@ -1,4 +1,4 @@
-# Sarina Wu Personal Portfolio
+# Sarina's Personal Portfolio Website
 
 3D portfolio website to effectively engage visitors and showcase my skills.
 
@@ -10,7 +10,15 @@ https://sarinawuphd.com/
 
 ## Technical Skills
 
-1. JavaScript
-2. React
-3. Three.js
-4. EmailJS
+- JavaScript
++ React
+* Three.js
+- EmailJS
++ TailwindCSS
+
+
+## Steps
+
+1. Clone Github repository to local directory.
+2. In the terminal run command: npm run dev
+3. View in the browser: http://localhost:3000
