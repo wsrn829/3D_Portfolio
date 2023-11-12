@@ -164,7 +164,7 @@ import {
 
   const experiences = [
     {
-      title: "Full-Stack Developer",
+      title: "React Developer",
       company_name: "CoinCrest(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
@@ -309,7 +309,7 @@ import {
         },
       ],
       image: coincrest,
-      // source_code_link: "https://sarinawuphd.com",
+      source_code_link: "https://github.com/wsrn829/CoinCrest",
     },
     {
       name: "Community Food",
