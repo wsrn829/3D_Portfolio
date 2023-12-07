@@ -29,6 +29,14 @@ import {
     restapi,
     coincrest,
     rapidapi,
+    reactnative,
+    appwrite,
+    reactquery,
+    typescript,
+    nextjs,
+    netlify,
+    vite,
+    digitalocean,
   } from "../assets";
 
   export const navLinks = [
@@ -61,8 +69,23 @@ import {
       color: "blue-text-gradient",
     },
     {
-      name: "React JS",
+      name: "TypeScript",
+      icon: typescript,
+      color: "blue-text-gradient",
+    },
+    {
+      name: "React",
       icon: reactjs,
+      color: "blue-text-gradient",
+    },
+    {
+      name: "React Native",
+      icon: reactnative,
+      color: "blue-text-gradient",
+    },
+    {
+      name: "React Query",
+      icon: reactquery,
       color: "blue-text-gradient",
     },
     {
@@ -76,19 +99,44 @@ import {
       color: "blue-text-gradient",
     },
     {
-      name: "Three.js",
-      icon: threejs,
+      name: "Next",
+      icon: nextjs,
       color: "blue-text-gradient",
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-      color: "green-text-gradient",
+      name: "Vite",
+      icon: vite,
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Three",
+      icon: threejs,
+      color: "blue-text-gradient",
     },
     {
       name: "HTML",
       icon: html,
       color: "blue-text-gradient",
+    },
+    {
+      name: "CSS",
+      icon: css,
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Node",
+      icon: nodejs,
+      color: "green-text-gradient",
     },
     {
       name: "Python",
@@ -113,6 +161,11 @@ import {
     {
       name: "Rapid API",
       icon: rapidapi,
+      color: "green-text-gradient",
+    },
+    {
+      name: "Appwrite",
+      icon: appwrite,
       color: "green-text-gradient",
     },
     {
@@ -146,23 +199,42 @@ import {
       color: "orange-text-gradient",
     },
     {
-      name: "CSS",
-      icon: css,
-      color: "pink-text-gradient",
+      name: "Netlify",
+      icon: netlify,
+      color: "orange-text-gradient",
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-      color: "pink-text-gradient",
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-      color: "pink-text-gradient",
+      name: "DigitalOcean",
+      icon: digitalocean,
+      color: "orange-text-gradient",
     },
   ];
 
   const experiences = [
+    // {
+    //   title: "Frontend Developer",
+    //   company_name: "InstaClone(Personal Project)",
+    //   icon: logo,
+    //   iconBg: "#383E56",
+    //   date: "Nov 2023 - Now",
+    //   points: [
+    //     // "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
+    //     // "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
+    //     // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
+    //   ],
+    // },
+    {
+      title: "React Native Developer",
+      company_name: "SwiftHire(Personal Project)",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Nov 2023 - Now",
+      points: [
+        "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
+        "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
+        // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
+      ],
+    },
     {
       title: "React Developer",
       company_name: "CoinCrest(Personal Project)",
@@ -275,9 +347,83 @@ import {
 
   const projects = [
     {
+      name: "InstaClone",
+      description:
+        "Full-Stack social media app. (Instagram Clone). (On-going)",
+      tags: [
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React Query",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Appwrite",
+          color: "green-text-gradient",
+        },
+        // {
+        //   name: "Rapid API",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: logo,
+      source_code_link: "https://github.com/wsrn829/InstaClone",
+    },
+    {
+      name: "SwiftHire",
+      description:
+        "React Native mobile application simplifying and enhancing the job search journey by empowering users to effortlessly discover, apply, and connect with their ideal job opportunities. (On-going)",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "Redux Toolkit",
+        //   color: "blue-text-gradient",
+        // },
+        {
+          name: "Expo",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Rapid API",
+          color: "green-text-gradient",
+        },
+        // {
+        //   name: "Ant Design",
+        //   color: "pink-text-gradient",
+        // },
+        // {
+        //   name: "Chart.js",
+        //   color: "pink-text-gradient",
+        // },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: logo,
+      source_code_link: "https://github.com/wsrn829/SwiftHire",
+    },
+    {
       name: "CoinCrest",
       description:
-        "Full-stack cryptocurrency application empowering cryptocurrency enthusiasts and traders with seamless navigation through the dynamic world of digital assets. (On-going)",
+        "Full-stack cryptocurrency application empowering cryptocurrency enthusiasts and traders with seamless navigation through the dynamic world of digital assets.",
       tags: [
         {
           name: "React",
@@ -289,7 +435,7 @@ import {
         },
         {
           name: "RTK Query",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "Rapid API",
@@ -337,12 +483,12 @@ import {
           color: "yellow-text-gradient",
         },
         {
-          name: "AWS",
+          name: "DigitalOcean",
           color: "orange-text-gradient",
         },
       ],
       image: fridge,
-      source_code_link: "https://fridgeraiders.gitlab.io/community-fridges/",
+      source_code_link: "https://communityfoodnetworks.com/",
     },
     {
       name: "3D-Portfolio",
@@ -366,7 +512,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "TailwindCSS",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],

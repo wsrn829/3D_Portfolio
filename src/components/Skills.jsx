@@ -17,7 +17,7 @@ const Skills = () => {
             My Skills.
           </h2>
         </div>
-        <div className="flex flex-row flex-wrap justify-center gap-10 pt-10">
+        <div className="flex flex-row flex-wrap justify-center gap-12 pt-10">
           {technologies.map((technology) => (
             <div className="w-28 h-28" key={technology.name}>
               <div className="text-center text-gray-400">

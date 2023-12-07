@@ -23,6 +23,14 @@ import python from "./tech/python.png";
 import aws from "./tech/aws.png";
 import restapi from "./tech/restapi.png";
 import rapidapi from "./tech/rapidapi.png";
+import reactnative from "./tech/reactnative.png";
+import appwrite from "./tech/appwrite.png";
+import reactquery from "./tech/reactquery.png";
+import typescript from "./tech/typescript.png";
+import nextjs from "./tech/nextjs.png";
+import netlify from "./tech/netlify.png";
+import vite from "./tech/vite.png";
+import digitalocean from "./tech/digitalocean.png";
 
 import hr from "./company/hr.png";
 import ox from "./company/ox.png";
@@ -71,4 +79,12 @@ export {
   restapi,
   coincrest,
   rapidapi,
+  reactnative,
+  appwrite,
+  reactquery,
+  typescript,
+  nextjs,
+  netlify,
+  vite,
+  digitalocean,
 };

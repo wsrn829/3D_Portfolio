@@ -19,6 +19,6 @@ https://sarinawuphd.com/
 
 ## Steps
 
-1. Clone Github repository to local directory.
+1. Clone Github repository to local directory
 2. In the terminal run command: npm run dev
 3. View in the browser: http://localhost:3000
