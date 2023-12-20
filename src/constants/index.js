@@ -282,7 +282,9 @@ import {
         "Created a PostgreSQL database using SQL and migrations to establish a meticulously structured and scalable database solution, facilitating seamless data management, retrieval, and an optimized system performance.",
         "Unitized FastAPI and Python to streamline backend development, resulting in enhanced API performance, reduced response times, and improved overall user experience.",
         "Crafted dynamic user interfaces using React, React Hooks, and Redux Toolkit for efficient component logic and seamless synchronization of application state across components and a smooth and responsive user experience.",
-        "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
+        // "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
+        "Initialized Alembic for efficient management of database migrations in the project and used SQLAlchemy to seamlessly integrate Python objects with the database schema for relational database design and interaction.",
+        "Deployed the frontend, backend, and database components of the application on DigitalOcean, ensuring a cohesive and reliable deployment across all layers of the application.",
       ],
     },
     {
@@ -541,6 +543,14 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "Alembic",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQLAlchemy",
+          color: "green-text-gradient",
+        },
+        {
           name: "Docker",
           color: "yellow-text-gradient",
         },
@@ -550,6 +560,10 @@ import {
         },
         {
           name: "CI/CD",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "DigitalOcean",
           color: "orange-text-gradient",
         },
         {
