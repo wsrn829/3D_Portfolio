@@ -1,12 +1,20 @@
-# Sarina's Personal Portfolio Website
+# Sarina's Portfolio
 
-3D portfolio website to effectively engage visitors and showcase my skills.
+Welcome to the repository for Sarina's 3D portfolio website, which effectively engagex visitors and showcases her skills.
 
 
 ## Deployed Website
 
 https://sarinawuphd.com/
 
+
+## Table of Contents
+
+- [About]
+- [Skills]
+- [Projects]
+- [Experience]
+- [Contact]
 
 ## Technical Skills
 
@@ -17,8 +25,8 @@ https://sarinawuphd.com/
 + TailwindCSS
 
 
-## Steps
+## How to Use
 
 1. Clone Github repository to local directory
-2. In the terminal run command: npm run dev
+2. In the terminal run command: npm install, npm run dev
 3. View in the browser: http://localhost:3000
