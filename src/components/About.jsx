@@ -33,9 +33,8 @@ const About = () => {
     <br />
     As a dedicated Full-Stack Engineer with over 1000 hours of training
     in an Agile environment, I have built a solid foundation in both frontend and backend technologies,
-    from creating user interfaces using JavaScript frameworks like React,
-    Redux Toolkit, and Three.js, to architecting server-side solutions with Python, Django,
-    RESTful API, and FastAPI. Proficiency in PostgreSQL and MongoDB ensures seamless data management
+    from creating user interfaces using JavaScript frameworks like React and Redux, to architecting server-side solutions with Python, Django,
+    REST API, and FastAPI. Proficiency in PostgreSQL and MongoDB ensures seamless data management
     and retrieval. I'm also a quick learner and collaborate closely with clients to create effcient, scalable, and user-friendly solutions
     that solve real-workd problems. Let's work together to bring your ideas to life!
     </motion.div>
