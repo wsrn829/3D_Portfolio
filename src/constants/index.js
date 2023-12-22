@@ -37,6 +37,7 @@ import {
     netlify,
     vite,
     digitalocean,
+    bank,
   } from "../assets";
 
   export const navLinks = [
@@ -211,18 +212,30 @@ import {
   ];
 
   const experiences = [
-    // {
-    //   title: "Frontend Developer",
-    //   company_name: "InstaClone(Personal Project)",
-    //   icon: logo,
-    //   iconBg: "#383E56",
-    //   date: "Nov 2023 - Now",
-    //   points: [
-    //     // "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
-    //     // "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
-    //     // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
-    //   ],
-    // },
+    {
+      title: "React Developer",
+      company_name: "ResponsiveBankApp(Personal Project)",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Dec 2023 - Now",
+      points: [
+        // "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
+        // "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
+        // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
+      ],
+    },
+    {
+      title: "Frontend Developer",
+      company_name: "InstaClone(Personal Project)",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Nov 2023 - Now",
+      points: [
+        // "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
+        // "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
+        // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
+      ],
+    },
     {
       title: "React Native Developer",
       company_name: "SwiftHire(Personal Project)",
@@ -348,6 +361,31 @@ import {
   ];
 
   const projects = [
+    {
+      name: "ResponsiveBankApp",
+      description:
+        "Responsive bank app with modern UI/UX in React and TailwindCSS. (On-going)",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "Rapid API",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bank,
+      source_code_link: "https://github.com/wsrn829/ResponsiveBankApp",
+    },
     {
       name: "InstaClone",
       description:

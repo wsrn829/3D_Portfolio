@@ -36,7 +36,7 @@ const About = () => {
     from creating user interfaces using JavaScript frameworks like React and Redux, to architecting server-side solutions with Python, Django,
     REST API, and FastAPI. Proficiency in PostgreSQL and MongoDB ensures seamless data management
     and retrieval. I'm also a quick learner and collaborate closely with clients to create effcient, scalable, and user-friendly solutions
-    that solve real-workd problems. Let's work together to bring your ideas to life!
+    that solve real-world problems. Let's work together to bring your ideas to life!
     </motion.div>
     </>
   );

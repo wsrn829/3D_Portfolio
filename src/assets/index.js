@@ -43,6 +43,7 @@ import dealer from "./dealer.png";
 import tasktales from "./tasktales.png";
 import fridge from "./fridge.png";
 import coincrest from "./coincrest.png";
+import bank from "./bank.png";
 
 export {
   github,
@@ -87,4 +88,5 @@ export {
   netlify,
   vite,
   digitalocean,
+  bank,
 };
