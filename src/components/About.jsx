@@ -26,9 +26,13 @@ const About = () => {
     possibilities that language and knowledge can unlock.
     <br />
     <br />
-    My passion for software engineering began at Oxford, where one of my PhD mentors had spent decades
+
+    My passion for software engineering began at Oxford, where one of my D.Phil (the term for PhD at Oxford) mentors, now affiliated with 
+    the Department of Engineering Science, had spent decades working on Digital Cultural Heritage. As a result of this 
+    experience I shifted my interests from Oriental Studies to Computer Science.
+    {/* My passion for software engineering began at Oxford, where one of my PhD mentors had spent decades
     working on Digital Cultural Heritage. As a result of this experience, I defended my PhD dissertation
-    in the Department of Computer Science at Oxford, subtly foreshadowing my future career shift.
+    in the Department of Computer Science at Oxford, subtly foreshadowing my future career shift. */}
     <br />
     <br />
     As a dedicated Full-Stack Engineer with over 1000 hours of training
