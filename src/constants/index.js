@@ -261,9 +261,9 @@ import {
       iconBg: "#383E56",
       date: "Nov 2023 - Now",
       points: [
-        "Utilized React, Ant Design, Chart.js, and CSS to craft an intuitive and visually appealing user interface tailored for cryptocurrency enthusiasts and traders, enhancing their overall experience.",
-        "Implemented Redux Toolkit to facilitate centralized state management across various components, enhancing the maintainability and scalability of the application.",
-        "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
+        "Implemented a Single-Page Application (SPA) using React, React Hooks, Ant Design, Chart.js, and CSS to optimize the user experience with seamless navigation and dynamic content loading.",
+        "Utilized Redux Toolkit to streamline centralized state management across diverse components, enhancing the maintainability and scalability of the application.",
+        "Integrated RTK Query and Rapid API to optimize data fetching and management, leading to a more efficient and responsive application with real-time cryptocurrency data updates.",
       ],
     },
     {
@@ -271,7 +271,7 @@ import {
       company_name: "Community Food(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
-      date: "Sep 2023 - Now",
+      date: "Sep 2023 - Dec 2023",
       points: [
         "Implemented FastAPI protected endpoints with SQL and Python to enable efficient and structured communication between the React-based frontend and the PostgreSQL database.",
         "Implemented Redux Toolkit to facilitate centralized state management across various components, enhancing the maintainability and scalability of the application.",
@@ -301,9 +301,9 @@ import {
         "Created a PostgreSQL database using SQL and migrations to establish a meticulously structured and scalable database solution, facilitating seamless data management, retrieval, and an optimized system performance.",
         "Unitized FastAPI and Python to streamline backend development, resulting in enhanced API performance, reduced response times, and improved overall user experience.",
         "Crafted dynamic user interfaces using React, React Hooks, and Redux Toolkit for efficient component logic and seamless synchronization of application state across components and a smooth and responsive user experience.",
-        // "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
-        "Initialized Alembic for efficient management of database migrations in the project and used SQLAlchemy to seamlessly integrate Python objects with the database schema for relational database design and interaction.",
-        "Deployed the frontend, backend, and database components of the application on DigitalOcean, ensuring a cohesive and reliable deployment across all layers of the application.",
+        "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
+        // "Initialized Alembic for efficient management of database migrations in the project and used SQLAlchemy to seamlessly integrate Python objects with the database schema for relational database design and interaction.",
+        // "Deployed the frontend, backend, and database components of the application on DigitalOcean, ensuring a cohesive and reliable deployment across all layers of the application.",
       ],
     },
     {
@@ -313,9 +313,10 @@ import {
       iconBg: "#383E56",
       date: "Apr 2023 - Jun 2023",
       points: [
-        "Designed and developed a comprehensive set of RESTful API endpoints using Python and Django to facilitate seamless and structured communication between the React-based frontend and the relevant database.",
-        "Utilized a Dockerized development environment in combination with data polling strategies, resulting in heightened operational efficiency and improved data synchronization among Microservices.",
-        "Developed an intuitive Single-Page Application (SPA) using React, strategically optimizing user experience through efficient navigation and dynamic content loading.",
+        "Created PostgreSQL databases using Django, SQL, and migrations to establish a meticulously structured database solution, facilitating seamless data management, retrieval, and an optimized system performance.",
+        "Created REST API endpoints to facilitate efficient data exchange between the React frontend and the databases.",
+        "Utilized Docker, Microservices, and polling strategies to ensure efficient data synchronization across services.",
+        "Established four CI/CD pipelines for seamless deployment of backend and frontend on Heroku and Netlify, including database migrations, environment variable configuration, and extensive debugging for continuous delivery.",
       ],
     },
     {
@@ -325,9 +326,9 @@ import {
       iconBg: "#383E56",
       date: "Mar 2023 - Apr 2023",
       points: [
-        "Designed and constructed a coherent and scalable Django database, empowering seamless user interaction through a secure web application for effortless management and viewing of personal items.",
-        "Implemented Django’s authentication system, reinforcing robust password validation on the signup form and enforcing restricted access exclusively for logged-in users to enhance user account security.",
-        "Crafted a responsive front-end web application with HTML, CSS, and Bootstrap, optimizing cross-device user experience, enhancing page readability, and guiding user attention through thoughtful design principles.",
+        "Implemented a Django authentication system, reinforcing robust password validation on the signup form and enforcing restricted access exclusively for logged-in users to enhance user account security.",
+        "Designed a responsive interface using HTML and CSS, improving cross-device compatibility, readability, and strategically guiding user attention through effective design principles.",
+        "Developed and maintained a robust CI/CD pipeline, optimizing software development processes for efficient code integration, automated testing, and seamless deployment on Heroku.",
       ],
     },
     {
