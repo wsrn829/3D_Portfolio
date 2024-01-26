@@ -38,6 +38,7 @@ import {
     vite,
     digitalocean,
     bank,
+    heroku,
   } from "../assets";
 
   export const navLinks = [
@@ -100,7 +101,7 @@ import {
       color: "blue-text-gradient",
     },
     {
-      name: "Next",
+      name: "Next.js",
       icon: nextjs,
       color: "blue-text-gradient",
     },
@@ -110,7 +111,7 @@ import {
       color: "blue-text-gradient",
     },
     {
-      name: "Three",
+      name: "Three.js",
       icon: threejs,
       color: "blue-text-gradient",
     },
@@ -135,7 +136,7 @@ import {
       color: "pink-text-gradient",
     },
     {
-      name: "Node",
+      name: "Node.js",
       icon: nodejs,
       color: "green-text-gradient",
     },
@@ -155,7 +156,7 @@ import {
       color: "green-text-gradient",
     },
     {
-      name: "RestAPI",
+      name: "REST API",
       icon: restapi,
       color: "green-text-gradient",
     },
@@ -195,8 +196,8 @@ import {
       color: "yellow-text-gradient",
     },
     {
-      name: "AWS",
-      icon: aws,
+      name: "Heroku",
+      icon: heroku,
       color: "orange-text-gradient",
     },
     {
@@ -207,6 +208,11 @@ import {
     {
       name: "DigitalOcean",
       icon: digitalocean,
+      color: "orange-text-gradient",
+    },
+    {
+      name: "AWS",
+      icon: aws,
       color: "orange-text-gradient",
     },
   ];

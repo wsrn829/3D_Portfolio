@@ -31,6 +31,7 @@ import nextjs from "./tech/nextjs.png";
 import netlify from "./tech/netlify.png";
 import vite from "./tech/vite.png";
 import digitalocean from "./tech/digitalocean.png";
+import heroku from "./tech/heroku.png";
 
 import hr from "./company/hr.png";
 import ox from "./company/ox.png";
@@ -89,4 +90,5 @@ export {
   vite,
   digitalocean,
   bank,
+  heroku,
 };
