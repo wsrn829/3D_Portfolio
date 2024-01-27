@@ -368,109 +368,109 @@ import {
   ];
 
   const projects = [
-    {
-      name: "ResponsiveBankApp",
-      description:
-        "Responsive bank app with modern UI/UX in React and TailwindCSS. (On-going)",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "blue-text-gradient",
-        },
-        // {
-        //   name: "Rapid API",
-        //   color: "green-text-gradient",
-        // },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: bank,
-      source_code_link: "https://github.com/wsrn829/ResponsiveBankApp",
-    },
-    {
-      name: "InstaClone",
-      description:
-        "Full-Stack social media app. (Instagram Clone). (On-going)",
-      tags: [
-        {
-          name: "TypeScript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "React Query",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Appwrite",
-          color: "green-text-gradient",
-        },
-        // {
-        //   name: "Rapid API",
-        //   color: "green-text-gradient",
-        // },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: logo,
-      source_code_link: "https://github.com/wsrn829/InstaClone",
-    },
-    {
-      name: "SwiftHire",
-      description:
-        "React Native mobile application simplifying and enhancing the job search journey by empowering users to effortlessly discover, apply, and connect with their ideal job opportunities. (On-going)",
-      tags: [
-        {
-          name: "React Native",
-          color: "blue-text-gradient",
-        },
-        // {
-        //   name: "Redux Toolkit",
-        //   color: "blue-text-gradient",
-        // },
-        {
-          name: "Expo",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Rapid API",
-          color: "green-text-gradient",
-        },
-        // {
-        //   name: "Ant Design",
-        //   color: "pink-text-gradient",
-        // },
-        // {
-        //   name: "Chart.js",
-        //   color: "pink-text-gradient",
-        // },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: logo,
-      source_code_link: "https://github.com/wsrn829/SwiftHire",
-    },
+    // {
+    //   name: "ResponsiveBankApp",
+    //   description:
+    //     "Responsive bank app with modern UI/UX in React and TailwindCSS. (On-going)",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Vite",
+    //       color: "blue-text-gradient",
+    //     },
+    //     // {
+    //     //   name: "Rapid API",
+    //     //   color: "green-text-gradient",
+    //     // },
+    //     {
+    //       name: "Tailwind CSS",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: bank,
+    //   source_code_link: "https://github.com/wsrn829/ResponsiveBankApp",
+    // },
+    // {
+    //   name: "InstaClone",
+    //   description:
+    //     "Full-Stack social media app. (Instagram Clone). (On-going)",
+    //   tags: [
+    //     {
+    //       name: "TypeScript",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "React Query",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Vite",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Appwrite",
+    //       color: "green-text-gradient",
+    //     },
+    //     // {
+    //     //   name: "Rapid API",
+    //     //   color: "green-text-gradient",
+    //     // },
+    //     {
+    //       name: "Tailwind CSS",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: logo,
+    //   source_code_link: "https://github.com/wsrn829/InstaClone",
+    // },
+    // {
+    //   name: "SwiftHire",
+    //   description:
+    //     "React Native mobile application simplifying and enhancing the job search journey by empowering users to effortlessly discover, apply, and connect with their ideal job opportunities. (On-going)",
+    //   tags: [
+    //     {
+    //       name: "React Native",
+    //       color: "blue-text-gradient",
+    //     },
+    //     // {
+    //     //   name: "Redux Toolkit",
+    //     //   color: "blue-text-gradient",
+    //     // },
+    //     {
+    //       name: "Expo",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Rapid API",
+    //       color: "green-text-gradient",
+    //     },
+    //     // {
+    //     //   name: "Ant Design",
+    //     //   color: "pink-text-gradient",
+    //     // },
+    //     // {
+    //     //   name: "Chart.js",
+    //     //   color: "pink-text-gradient",
+    //     // },
+    //     {
+    //       name: "CSS",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: logo,
+    //   source_code_link: "https://github.com/wsrn829/SwiftHire",
+    // },
     {
       name: "CoinCrest",
       description:
-        "Full-stack cryptocurrency application empowering cryptocurrency enthusiasts and traders with seamless navigation through the dynamic world of digital assets.",
+        "Full-stack cryptocurrency application for seamless navigation through the dynamic world of digital assets.",
       tags: [
         {
           name: "React",
@@ -487,6 +487,10 @@ import {
         {
           name: "Rapid API",
           color: "green-text-gradient",
+        },
+        {
+          name: "Netlify",
+          color: "orange-text-gradient",
         },
         {
           name: "Ant Design",
@@ -507,7 +511,7 @@ import {
     {
       name: "Community Food",
       description:
-        "Full-stack application connecting community fridges, pantries, and volunteer networks, streamlining operations and allocating resources to combat food insecurity. (On-going. Invited to Contribute)",
+        "Full-stack application connecting community fridges, pantries, and volunteer networks, streamlining operations and allocating resources to combat food insecurity. (Invited to Contribute)",
       tags: [
         {
           name: "React",
@@ -559,6 +563,10 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "Hostinger",
+          color: "orange-text-gradient",
+        },
+        {
           name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
@@ -587,14 +595,14 @@ import {
           name: "PostgreSQL",
           color: "green-text-gradient",
         },
-        {
-          name: "Alembic",
-          color: "green-text-gradient",
-        },
-        {
-          name: "SQLAlchemy",
-          color: "green-text-gradient",
-        },
+        // {
+        //   name: "Alembic",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "SQLAlchemy",
+        //   color: "green-text-gradient",
+        // },
         {
           name: "Docker",
           color: "yellow-text-gradient",
@@ -637,6 +645,10 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
           name: "Docker",
           color: "yellow-text-gradient",
         },
@@ -649,12 +661,20 @@ import {
           color: "yellow-text-gradient",
         },
         {
+          name: "Heroku",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Netlify",
+          color: "orange-text-gradient",
+        },
+        {
           name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: dealer,
-      source_code_link: "https://github.com/wsrn829/DealerDashboard",
+      source_code_link: "https://github.com/wsrn829/DealerDashboardDeployment",
     },
     {
       name: "TaskTales",
@@ -674,12 +694,20 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Heroku",
+          color: "orange-text-gradient",
+        },
+        {
           name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: tasktales,
-      source_code_link: "https://github.com/wsrn829/TaskTales",
+      source_code_link: "https://github.com/wsrn829/TaskTalesDeployment",
     },
   ];
 

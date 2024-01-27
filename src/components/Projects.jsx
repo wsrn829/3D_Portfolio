@@ -35,12 +35,12 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient'
             >
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='object-contain w-1/2 h-1/2'
               />
             </div>
           </div>
@@ -52,7 +52,7 @@ const ProjectCard = ({
           <p className='mt-4 text-secondary text-[20px]'>{description}</p>
         </div>
 
-        <div className='mt-6 flex flex-wrap gap-2'>
+        <div className='flex flex-wrap gap-2 mt-6'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -78,7 +78,7 @@ const Projects = () => {
           real-world examples of my work.
       </div>
 
-      <div className='mt-20 flex flex-wrap justify-center gap-7'>
+      <div className='flex flex-wrap justify-center mt-20 gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
