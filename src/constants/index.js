@@ -70,26 +70,26 @@ import {
       icon: javascript,
       color: "blue-text-gradient",
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-      color: "blue-text-gradient",
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    //   color: "blue-text-gradient",
+    // },
     {
       name: "React",
       icon: reactjs,
       color: "blue-text-gradient",
     },
-    {
-      name: "React Native",
-      icon: reactnative,
-      color: "blue-text-gradient",
-    },
-    {
-      name: "React Query",
-      icon: reactquery,
-      color: "blue-text-gradient",
-    },
+    // {
+    //   name: "React Native",
+    //   icon: reactnative,
+    //   color: "blue-text-gradient",
+    // },
+    // {
+    //   name: "React Query",
+    //   icon: reactquery,
+    //   color: "blue-text-gradient",
+    // },
     {
       name: "Redux Toolkit",
       icon: redux,
@@ -100,11 +100,11 @@ import {
       icon: redux,
       color: "blue-text-gradient",
     },
-    {
-      name: "Next.js",
-      icon: nextjs,
-      color: "blue-text-gradient",
-    },
+    // {
+    //   name: "Next.js",
+    //   icon: nextjs,
+    //   color: "blue-text-gradient",
+    // },
     {
       name: "Vite",
       icon: vite,
@@ -165,11 +165,11 @@ import {
       icon: rapidapi,
       color: "green-text-gradient",
     },
-    {
-      name: "Appwrite",
-      icon: appwrite,
-      color: "green-text-gradient",
-    },
+    // {
+    //   name: "Appwrite",
+    //   icon: appwrite,
+    //   color: "green-text-gradient",
+    // },
     {
       name: "PostgreSQL",
       icon: postgresql,
@@ -261,9 +261,9 @@ import {
       iconBg: "#383E56",
       date: "Nov 2023 - Now",
       points: [
-        "Implemented a Single-Page Application (SPA) using React, React Hooks, Ant Design, Chart.js, and CSS to optimize the user experience with seamless navigation and dynamic content loading.",
-        "Utilized Redux Toolkit to streamline centralized state management across diverse components, enhancing the maintainability and scalability of the application.",
-        "Integrated RTK Query and Rapid API to optimize data fetching and management, leading to a more efficient and responsive application with real-time cryptocurrency data updates.",
+        "Implemented a Single-Page Application (SPA) using React, React Hooks, Ant Design, Chart.js, and CSS to optimize the user experience with seamless navigation, dynamic content loading, and visually appealing design.",
+        "Utilized Redux Toolkit to centralize state management across diverse components, improving the maintainability and scalability of the application.",
+        "Integrated RTK Query and Rapid API to enhance data fetching and management, resulting in a highly efficient and responsive application that provides real-time updates on cryptocurrency data.",
       ],
     },
     {
@@ -313,10 +313,10 @@ import {
       iconBg: "#383E56",
       date: "Apr 2023 - Jun 2023",
       points: [
-        "Created PostgreSQL databases using Django, SQL, and migrations to establish a meticulously structured database solution, facilitating seamless data management, retrieval, and an optimized system performance.",
-        "Created REST API endpoints to facilitate efficient data exchange between the React frontend and the databases.",
-        "Utilized Docker, Microservices, and polling strategies to ensure efficient data synchronization across services.",
-        "Established four CI/CD pipelines for seamless deployment of backend and frontend on Heroku and Netlify, including database migrations, environment variable configuration, and extensive debugging for continuous delivery.",
+        "Created PostgreSQL databases with Django, SQL, and migrations for efficient data management and retrieval.",
+        "Created REST API endpoints for streamlined data communication between the React frontend and the databases.",
+        "Utilized Docker, Microservices, and polling strategies to optimize data synchronization across various services.",
+        "Established four CI/CD pipelines for backend and frontend deployment on Heroku and Netlify, incorporating database migrations, environment variable configuration, and extensive debugging to ensure continuous delivery.",
       ],
     },
     {
@@ -326,9 +326,9 @@ import {
       iconBg: "#383E56",
       date: "Mar 2023 - Apr 2023",
       points: [
-        "Implemented a Django authentication system, reinforcing robust password validation on the signup form and enforcing restricted access exclusively for logged-in users to enhance user account security.",
-        "Designed a responsive interface using HTML and CSS, improving cross-device compatibility, readability, and strategically guiding user attention through effective design principles.",
-        "Developed and maintained a robust CI/CD pipeline, optimizing software development processes for efficient code integration, automated testing, and seamless deployment on Heroku.",
+        "Implemented a Django authentication system with robust password validation on the signup form and exclusive restricted access for logged-in users to enhance user account security.",
+        "Developed a responsive interface using HTML and CSS to enhance cross-device compatibility, readability, and strategically direct user attention through the application of effective design principles.",
+        "Developed and maintained a robust CI/CD pipeline, optimizing software development processes for efficient code integration, automated testing, and smooth deployment on Heroku.",
       ],
     },
     {

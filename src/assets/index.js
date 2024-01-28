@@ -2,6 +2,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import logo from "./logo.svg";
+import me2 from "./me2.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -91,4 +92,5 @@ export {
   digitalocean,
   bank,
   heroku,
+  me2,
 };

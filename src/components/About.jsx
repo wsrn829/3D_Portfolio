@@ -26,18 +26,19 @@ const About = () => {
     possibilities that language and knowledge can unlock.
     <br />
     <br />
-    My passion for software engineering began at Oxford, where one of my D.Phil (the term for PhD at Oxford) mentors, now affiliated with 
-    the Department of Engineering Science, had spent decades working on Digital Cultural Heritage. As a result of this 
-    experience I shifted my interests from Oriental Studies to Computer Science. (Fun fact: I defended my D.Phil dissertation 
-    in the building of Department of Computer Science at Oxford, subtly foreshadowing my future career shift.)
+    My passion for software engineering began at Oxford, where one of my PhD mentors, 
+    now affiliated with the Department of Engineering Science, had spent decades working on 
+    Digital Cultural Heritage, which led to my shift in interests from Oriental Studies to 
+    Computer Science. *Fun fact: I defended my D.Phil dissertation in the Department 
+    of Computer Science building at Oxford, subtly foreshadowing my future career shift.*
     <br />
     <br />
-    As a dedicated Full-Stack Engineer with over 1000 hours of training
-    in an Agile environment, I have built a solid foundation in both frontend and backend technologies,
-    from creating user interfaces using JavaScript frameworks like React and Redux, to architecting server-side solutions with Python, Django,
-    REST API, and FastAPI. Proficiency in PostgreSQL and MongoDB ensures seamless data management
-    and retrieval. I'm also a quick learner and collaborate closely with clients to create effcient, scalable, and user-friendly solutions
-    that solve real-world problems. Let's work together to bring your ideas to life!
+    As a dedicated Full-Stack Engineer with over 1000 hours of training in Agile environments, 
+    I bring hands-on experience spanning the entire software development lifecycle, from planning to implementation. 
+    Proficient in CI/CD processes, I specialize in ensuring smooth software deployments. Thriving in cross-functional teams, 
+    I foster collaborative problem-solving to guarantee the timely delivery of high-quality software solutions. 
+    Leveraging my background in social science research, I instill a user-centric approach, emphasizing the broader impact of development decisions. 
+    Let's work together to bring your ideas to life!
     </motion.div>
     </>
   );
