@@ -1,11 +1,11 @@
 # Sarina's Portfolio
 
-Welcome to the repository for Sarina's 3D portfolio website, which effectively engages visitors and showcases her skills.
+Welcome to the Github repository for Sarina's 3D portfolio website, which effectively engages visitors and showcases her skills.
 
 
 ## Deployed Website
 
-https://sarinawuphd.com/
+https://sarinawuphd.com
 
 
 ## Table of Contents
