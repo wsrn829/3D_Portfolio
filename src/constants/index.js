@@ -255,11 +255,51 @@ import {
     //   ],
     // },
     {
+      title: "Full-Stack Developer",
+      company_name: "ThriveTogether(Personal Project)",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Jun 2023 - Now",
+      points: [
+        "Created a PostgreSQL database using SQL and migrations to establish a meticulously structured and scalable database solution, facilitating seamless data management, retrieval, and an optimized system performance.",
+        "Unitized FastAPI and Python to streamline backend development, resulting in enhanced API performance, reduced response times, and improved overall user experience.",
+        "Initialized Alembic for efficient management of database migrations in the project and used SQLAlchemy to seamlessly integrate Python objects with the database schema for relational database design and interaction.",
+        "Crafted dynamic user interfaces using React, and Redux Toolkit for efficient component logic and seamless synchronization of application state across components and a smooth and responsive user experience.",
+        // "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
+        "Deployed the frontend, backend, and database components of the application on Heroku and Netlify, ensuring a cohesive and reliable deployment across all layers of the application.",
+      ],
+    },
+    {
+      title: "Full-Stack Developer",
+      company_name: "DealerDashboard(Personal Project)",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Apr 2023 - Feb 2024",
+      points: [
+        "Created PostgreSQL databases with Django, SQL, and migrations for efficient data management and retrieval.",
+        "Created REST API endpoints for streamlined data communication between the React frontend and the databases.",
+        "Utilized Docker, Microservices, and polling strategies to optimize data synchronization across various services.",
+        "Established four CI/CD pipelines for backend and frontend deployment on Heroku and Netlify, incorporating database migrations, environment variable configuration, and extensive debugging to ensure continuous delivery.",
+      ],
+    },
+    {
+      title: "Full-Stack Developer",
+      company_name: "TaskTales(Personal Project)",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Mar 2023 - Jan 2024",
+      points: [
+        "Implemented a Django authentication system with robust password validation on the signup form and exclusive restricted access for logged-in users to enhance user account security.",
+        "Developed a responsive interface using HTML and CSS to enhance cross-device compatibility, readability, and strategically direct user attention through the application of effective design principles.",
+        "Developed and maintained a robust CI/CD pipeline, optimizing software development processes for efficient code integration, automated testing, and smooth deployment on Heroku.",
+      ],
+    },
+    {
       title: "React Developer",
       company_name: "CoinCrest(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
-      date: "Nov 2023 - Now",
+      date: "Nov 2023 - Feb 2024",
       points: [
         "Implemented a Single-Page Application (SPA) using React, React Hooks, Ant Design, Chart.js, and CSS to optimize the user experience with seamless navigation, dynamic content loading, and visually appealing design.",
         "Utilized Redux Toolkit to centralize state management across diverse components, improving the maintainability and scalability of the application.",
@@ -289,46 +329,6 @@ import {
         "Leveraged the power of Three.js to create immersive 3D visualizations and animations, enhancing user engagement and providing a unique and visually appealing portfolio experience.",
         "Integrated a responsive and mobile-friendly design using Tailwind CSS, ensuring a seamless user experience across various devices and screen sizes.",
         "Incorporated EmailJS for seamless contact functionality, allowing visitors to reach out directly through the website, streamlining communication with potential employers or clients.",
-      ],
-    },
-    {
-      title: "Full-Stack Developer",
-      company_name: "ThriveTogether(Personal Project)",
-      icon: logo,
-      iconBg: "#383E56",
-      date: "Jun 2023 - Aug 2023",
-      points: [
-        "Created a PostgreSQL database using SQL and migrations to establish a meticulously structured and scalable database solution, facilitating seamless data management, retrieval, and an optimized system performance.",
-        "Unitized FastAPI and Python to streamline backend development, resulting in enhanced API performance, reduced response times, and improved overall user experience.",
-        "Crafted dynamic user interfaces using React, React Hooks, and Redux Toolkit for efficient component logic and seamless synchronization of application state across components and a smooth and responsive user experience.",
-        "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
-        // "Initialized Alembic for efficient management of database migrations in the project and used SQLAlchemy to seamlessly integrate Python objects with the database schema for relational database design and interaction.",
-        // "Deployed the frontend, backend, and database components of the application on DigitalOcean, ensuring a cohesive and reliable deployment across all layers of the application.",
-      ],
-    },
-    {
-      title: "Full-Stack Developer",
-      company_name: "DealerDashboard(Personal Project)",
-      icon: logo,
-      iconBg: "#383E56",
-      date: "Apr 2023 - Jun 2023",
-      points: [
-        "Created PostgreSQL databases with Django, SQL, and migrations for efficient data management and retrieval.",
-        "Created REST API endpoints for streamlined data communication between the React frontend and the databases.",
-        "Utilized Docker, Microservices, and polling strategies to optimize data synchronization across various services.",
-        "Established four CI/CD pipelines for backend and frontend deployment on Heroku and Netlify, incorporating database migrations, environment variable configuration, and extensive debugging to ensure continuous delivery.",
-      ],
-    },
-    {
-      title: "Full-Stack Developer",
-      company_name: "TaskTales(Personal Project)",
-      icon: logo,
-      iconBg: "#383E56",
-      date: "Mar 2023 - Apr 2023",
-      points: [
-        "Implemented a Django authentication system with robust password validation on the signup form and exclusive restricted access for logged-in users to enhance user account security.",
-        "Developed a responsive interface using HTML and CSS to enhance cross-device compatibility, readability, and strategically direct user attention through the application of effective design principles.",
-        "Developed and maintained a robust CI/CD pipeline, optimizing software development processes for efficient code integration, automated testing, and smooth deployment on Heroku.",
       ],
     },
     {
@@ -468,6 +468,150 @@ import {
     //   source_code_link: "https://github.com/wsrn829/SwiftHire",
     // },
     {
+      name: "ThriveTogether",
+      description:
+        "Full-stack mental health application to connect individuals and foster a supportive community.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux Toolkit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "FastAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQLAlchemy",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Alembic",
+          color: "green-text-gradient",
+        },
+
+        {
+          name: "Docker",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Unit Testing",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "CI/CD",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Heroku",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Netlify",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: thrive,
+      source_code_link: "https://github.com/wsrn829/ThriveTogetherDeployment",
+    },
+    {
+      name: "DealerDashboard",
+      description:
+        "Full-stack car dealership management application to streamline and optimize all aspects of dealership operations.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RestAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Microservices",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Polling",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Heroku",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Netlify",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dealer,
+      source_code_link: "https://github.com/wsrn829/DealerDashboardDeployment",
+    },
+    {
+      name: "TaskTales",
+      description:
+        "Full-stack project and task management application to enhance productivity and collaboration across teams.",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Heroku",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tasktales,
+      source_code_link: "https://github.com/wsrn829/TaskTalesDeployment",
+    },
+    {
       name: "CoinCrest",
       description:
         "Full-stack cryptocurrency application for seamless navigation through the dynamic world of digital assets.",
@@ -573,141 +717,6 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://sarinawuphd.com",
-    },
-    {
-      name: "ThriveTogether",
-      description:
-        "Full-stack mental health application to connect individuals and foster a supportive community.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux Toolkit",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "FastAPI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
-          color: "green-text-gradient",
-        },
-        // {
-        //   name: "Alembic",
-        //   color: "green-text-gradient",
-        // },
-        // {
-        //   name: "SQLAlchemy",
-        //   color: "green-text-gradient",
-        // },
-        {
-          name: "Docker",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Unit Testing",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "CI/CD",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "DigitalOcean",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: thrive,
-      source_code_link: "https://github.com/wsrn829/ThriveTogether",
-    },
-    {
-      name: "DealerDashboard",
-      description:
-        "Full-stack car dealership management application to streamline and optimize all aspects of dealership operations.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Django",
-          color: "green-text-gradient",
-        },
-        {
-          name: "RestAPI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Docker",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Microservices",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Polling",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Heroku",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Netlify",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: dealer,
-      source_code_link: "https://github.com/wsrn829/DealerDashboardDeployment",
-    },
-    {
-      name: "TaskTales",
-      description:
-        "Full-stack project and task management application to enhance productivity and collaboration across teams.",
-      tags: [
-        {
-          name: "Html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Django",
-          color: "green-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Heroku",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tasktales,
-      source_code_link: "https://github.com/wsrn829/TaskTalesDeployment",
     },
   ];
 
