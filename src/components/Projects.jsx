@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_site,
 }) => {
   return (
       <Tilt
@@ -48,7 +49,9 @@ const ProjectCard = ({
 
         <div>
         <div className="mt-8">
+          <div onClick={() => window.open(live_site, "_blank")}>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          </div>
           <p className='mt-4 text-secondary text-[20px]'>{description}</p>
         </div>
 

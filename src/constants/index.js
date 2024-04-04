@@ -261,12 +261,12 @@ import {
       iconBg: "#383E56",
       date: "Jun 2023 - Now",
       points: [
-        "Created a PostgreSQL database using SQL and migrations to establish a meticulously structured and scalable database solution, facilitating seamless data management, retrieval, and an optimized system performance.",
-        "Unitized FastAPI and Python to streamline backend development, resulting in enhanced API performance, reduced response times, and improved overall user experience.",
-        "Initialized Alembic for efficient management of database migrations in the project and used SQLAlchemy to seamlessly integrate Python objects with the database schema for relational database design and interaction.",
-        "Crafted dynamic user interfaces using React, and Redux Toolkit for efficient component logic and seamless synchronization of application state across components and a smooth and responsive user experience.",
+        "Utilized FastAPI for backend development, resulting in enhanced API performance and reduced response time.",
+        "Developed a Single-Page Application using React, Redux Toolkit, and Redux Thunk, resulting in streamlined component logic, synchronized application state across components, and an enhanced user experience.",
+        "Integrated OAuth2 and JWT token-based authentication, leveraging React’s useContext hook, to enhance application security and streamline user authentication processes.",
+        "Developed and maintained CI/CD pipelines on Heroku and Netlify to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
         // "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
-        "Deployed the frontend, backend, and database components of the application on Heroku and Netlify, ensuring a cohesive and reliable deployment across all layers of the application.",
+        // "Deployed the frontend, backend, and database components of the application on Heroku and Netlify, ensuring a cohesive and reliable deployment across all layers of the application.",
       ],
     },
     {
@@ -276,9 +276,9 @@ import {
       iconBg: "#383E56",
       date: "Apr 2023 - Feb 2024",
       points: [
-        "Created PostgreSQL databases with Django, SQL, and migrations for efficient data management and retrieval.",
-        "Created REST API endpoints for streamlined data communication between the React frontend and the databases.",
-        "Utilized Docker, Microservices, and polling strategies to optimize data synchronization across various services.",
+        "Created a PostgreSQL database using SQL and implemented migration strategies to optimize data structuring and enhance data management processes.",
+        "Created REST API endpoints using Django for efficient data communication between the frontend and the database.",
+        "Utilized Docker, Microservices, and Polling to optimize data synchronization across various services.",
         "Established four CI/CD pipelines for backend and frontend deployment on Heroku and Netlify, incorporating database migrations, environment variable configuration, and extensive debugging to ensure continuous delivery.",
       ],
     },
@@ -289,8 +289,8 @@ import {
       iconBg: "#383E56",
       date: "Mar 2023 - Jan 2024",
       points: [
-        "Implemented a Django authentication system with robust password validation on the signup form and exclusive restricted access for logged-in users to enhance user account security.",
-        "Developed a responsive interface using HTML and CSS to enhance cross-device compatibility, readability, and strategically direct user attention through the application of effective design principles.",
+        "Leveraged HTML, CSS, and Bootstrap 5 to deliver an optimized cross-device user experience, enhancing page readability and effectively guiding user attention through strategic application of design principles.",
+        "Implemented Django 4’s authentication system to reinforce robust password validation on the signup form and enforce restricted access exclusively for logged-in users to enhance user account security.",
         "Developed and maintained a robust CI/CD pipeline, optimizing software development processes for efficient code integration, automated testing, and smooth deployment on Heroku.",
       ],
     },
@@ -306,18 +306,18 @@ import {
         "Integrated RTK Query and Rapid API to enhance data fetching and management, resulting in a highly efficient and responsive application that provides real-time updates on cryptocurrency data.",
       ],
     },
-    {
-      title: "Full-Stack Developer",
-      company_name: "Community Food(Personal Project)",
-      icon: logo,
-      iconBg: "#383E56",
-      date: "Sep 2023 - Dec 2023",
-      points: [
-        "Implemented FastAPI protected endpoints with SQL and Python to enable efficient and structured communication between the React-based frontend and the PostgreSQL database.",
-        "Implemented Redux Toolkit to facilitate centralized state management across various components, enhancing the maintainability and scalability of the application.",
-        "Participated in weekly standup meetings for team alignment, project tracking, issue resolution, and cross-functional communication.",
-      ],
-    },
+    // {
+    //   title: "Full-Stack Developer",
+    //   company_name: "Community Food(Personal Project)",
+    //   icon: logo,
+    //   iconBg: "#383E56",
+    //   date: "Sep 2023 - Dec 2023",
+    //   points: [
+    //     "Implemented FastAPI protected endpoints with SQL and Python to enable efficient and structured communication between the React-based frontend and the PostgreSQL database.",
+    //     "Implemented Redux Toolkit to facilitate centralized state management across various components, enhancing the maintainability and scalability of the application.",
+    //     "Participated in weekly standup meetings for team alignment, project tracking, issue resolution, and cross-functional communication.",
+    //   ],
+    // },
     {
       title: "React Developer",
       company_name: "3D-Portfolio(Personal Project)",
@@ -488,14 +488,14 @@ import {
           name: "PostgreSQL",
           color: "green-text-gradient",
         },
-        {
-          name: "SQLAlchemy",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Alembic",
-          color: "green-text-gradient",
-        },
+        // {
+        //   name: "SQLAlchemy",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "Alembic",
+        //   color: "green-text-gradient",
+        // },
 
         {
           name: "Docker",
@@ -576,7 +576,7 @@ import {
         },
       ],
       image: dealer,
-      source_code_link: "https://github.com/wsrn829/DealerDashboardDeployment",
+      source_code_link: "https://github.com/wsrn829/DealerDashboardSalesAPI",
     },
     {
       name: "TaskTales",
@@ -652,39 +652,39 @@ import {
       image: coincrest,
       source_code_link: "https://github.com/wsrn829/CoinCrest",
     },
-    {
-      name: "Community Food",
-      description:
-        "Full-stack application connecting community fridges, pantries, and volunteer networks, streamlining operations and allocating resources to combat food insecurity. (Invited to Contribute)",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux Toolkit",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "FastAPI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Docker",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "DigitalOcean",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: fridge,
-      source_code_link: "https://communityfoodnetworks.com/",
-    },
+    // {
+    //   name: "Community Food",
+    //   description:
+    //     "Full-stack application connecting community fridges, pantries, and volunteer networks, streamlining operations and allocating resources to combat food insecurity. (Invited to Contribute)",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Redux Toolkit",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "FastAPI",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "PostgreSQL",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Docker",
+    //       color: "yellow-text-gradient",
+    //     },
+    //     {
+    //       name: "DigitalOcean",
+    //       color: "orange-text-gradient",
+    //     },
+    //   ],
+    //   image: fridge,
+    //   source_code_link: "https://communityfoodnetworks.com/",
+    // },
     {
       name: "3D-Portfolio",
       description:
@@ -716,8 +716,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://sarinawuphd.com",
-    },
+      source_code_link: "https://github.com/wsrn829/3D_Portfolio",    },
   ];
 
   export { technologies, experiences, projects };
