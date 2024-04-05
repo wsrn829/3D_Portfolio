@@ -225,9 +225,6 @@ import {
     //   iconBg: "#383E56",
     //   date: "Dec 2023 - Now",
     //   points: [
-    //     // "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
-    //     // "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
-    //     // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
     //   ],
     // },
     // {
@@ -237,9 +234,6 @@ import {
     //   iconBg: "#383E56",
     //   date: "Nov 2023 - Now",
     //   points: [
-    //     // "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
-    //     // "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
-    //     // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
     //   ],
     // },
     // {
@@ -251,7 +245,6 @@ import {
     //   points: [
     //     "Implemented a cross-platform mobile application using React Native, ensuring seamless compatibility across both iOS and Android platforms for an enhanced user experience.",
     //     "Leveraged Expo's tools for efficient development, testing, and deployment, ensuring a robust and reliable job search application.",
-    //     // "Leveraged RTK Query and Rapid API integration to streamline data fetching and management, resulting in a more efficient and responsive application with real-time cryptocurrency data updates.",
     //   ],
     // },
     {
@@ -381,10 +374,6 @@ import {
     //       name: "Vite",
     //       color: "blue-text-gradient",
     //     },
-    //     // {
-    //     //   name: "Rapid API",
-    //     //   color: "green-text-gradient",
-    //     // },
     //     {
     //       name: "Tailwind CSS",
     //       color: "pink-text-gradient",
@@ -418,10 +407,6 @@ import {
     //       name: "Appwrite",
     //       color: "green-text-gradient",
     //     },
-    //     // {
-    //     //   name: "Rapid API",
-    //     //   color: "green-text-gradient",
-    //     // },
     //     {
     //       name: "Tailwind CSS",
     //       color: "pink-text-gradient",
@@ -439,10 +424,6 @@ import {
     //       name: "React Native",
     //       color: "blue-text-gradient",
     //     },
-    //     // {
-    //     //   name: "Redux Toolkit",
-    //     //   color: "blue-text-gradient",
-    //     // },
     //     {
     //       name: "Expo",
     //       color: "green-text-gradient",
@@ -451,14 +432,6 @@ import {
     //       name: "Rapid API",
     //       color: "green-text-gradient",
     //     },
-    //     // {
-    //     //   name: "Ant Design",
-    //     //   color: "pink-text-gradient",
-    //     // },
-    //     // {
-    //     //   name: "Chart.js",
-    //     //   color: "pink-text-gradient",
-    //     // },
     //     {
     //       name: "CSS",
     //       color: "pink-text-gradient",
