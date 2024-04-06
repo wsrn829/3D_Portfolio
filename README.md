@@ -1,6 +1,6 @@
 # Sarina's Portfolio
 
-Welcome to the repository for Sarina's 3D portfolio website, which effectively engagex visitors and showcases her skills.
+Welcome to the repository for Sarina's 3D portfolio website, which effectively engages visitors and showcases her skills.
 
 
 ## Deployed Website
