@@ -40,7 +40,6 @@ import cam from "./company/cam.png";
 
 import thrive from "./thrive.png";
 import portfolio from "./portfolio.png";
-import me from "./me.png";
 import dealer from "./dealer.png";
 import tasktales from "./tasktales.png";
 import fridge from "./fridge.png";
@@ -74,7 +73,6 @@ export {
   ox,
   thrive,
   portfolio,
-  me,
   dealer,
   tasktales,
   fridge,
