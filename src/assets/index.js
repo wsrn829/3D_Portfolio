@@ -37,6 +37,7 @@ import heroku from "./tech/heroku.png";
 import hr from "./company/hr.png";
 import ox from "./company/ox.png";
 import cam from "./company/cam.png";
+import harvard from "./company/harvard.png";
 
 import thrive from "./thrive.png";
 import portfolio from "./portfolio.png";
@@ -45,6 +46,7 @@ import tasktales from "./tasktales.png";
 import fridge from "./fridge.png";
 import coincrest from "./coincrest.png";
 import bank from "./bank.png";
+
 
 export {
   github,
@@ -71,6 +73,7 @@ export {
   hr,
   cam,
   ox,
+  harvard,
   thrive,
   portfolio,
   dealer,

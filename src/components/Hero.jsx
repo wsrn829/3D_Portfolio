@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles'
 import { SectionWrapper } from '../hoc';
-import { me, me2 } from "../assets";
+import { me2 } from "../assets";
 
 const Hero = () => {
   return (

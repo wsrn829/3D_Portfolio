@@ -18,6 +18,7 @@ import {
     docker,
     cam,
     ox,
+    harvard,
     hr,
     logo,
     thrive,
@@ -218,6 +219,17 @@ import {
   ];
 
   const experiences = [
+    {
+      title: "Professional Certificate in Computer Science for Web Programming",
+      company_name: "Harvard University",
+      icon: harvard,
+      iconBg: "#383E56",
+      date: "Nov 2021 - May 2024",
+      points: [
+        "Completed all problem sets and projects independently, demonstrating professional knowledge, skills, and expertise in full-stack web development.",
+        "Applied best practices in web security and performance optimization to enhance the reliability and performance of web applications.",
+      ],
+    },
     // {
     //   title: "React Developer",
     //   company_name: "ResponsiveBankApp(Personal Project)",
@@ -248,7 +260,7 @@ import {
     //   ],
     // },
     {
-      title: "Full-Stack Developer",
+      title: "Full-Stack Engineer",
       company_name: "ThriveTogether(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
@@ -263,7 +275,7 @@ import {
       ],
     },
     {
-      title: "Full-Stack Developer",
+      title: "Full-Stack Engineer",
       company_name: "DealerDashboard(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
@@ -276,7 +288,7 @@ import {
       ],
     },
     {
-      title: "Full-Stack Developer",
+      title: "Full-Stack Engineer",
       company_name: "TaskTales(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
@@ -288,7 +300,7 @@ import {
       ],
     },
     {
-      title: "React Developer",
+      title: "Full Stack Engineer",
       company_name: "CoinCrest(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
@@ -312,7 +324,7 @@ import {
     //   ],
     // },
     {
-      title: "React Developer",
+      title: "Frontend Engineer",
       company_name: "3D-Portfolio(Personal Project)",
       icon: logo,
       iconBg: "#383E56",
