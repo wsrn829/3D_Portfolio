@@ -40,6 +40,7 @@ import {
     digitalocean,
     bank,
     heroku,
+    wheelworld,
   } from "../assets";
 
   export const navLinks = [
@@ -272,6 +273,20 @@ import {
         "Developed and maintained CI/CD pipelines on Heroku and Netlify to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
         // "Developed and maintained GitLab CI/CD pipelines on the Galvanize Cloud platform to streamline software development processes, ensuring efficient code integration, automated testing, and seamless deployment.",
         // "Deployed the frontend, backend, and database components of the application on Heroku and Netlify, ensuring a cohesive and reliable deployment across all layers of the application.",
+      ],
+    },
+    {
+      title: "Full-Stack Engineer",
+      company_name: "WheelWorld(Personal Project)",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Apr 2024 - May 2024",
+      points: [
+        "Converted the previous Microservices architecture into a Monolithic architecture to reduce costs post-deployment.",
+        "Replaced Polling with HTTP requests to improve data synchronization efficiency and reduce costs post-deployment.",
+        "Added mobile responsiveness on all React pages using Bootstrap for a seamless user experience across various devices.",
+        "Implemented Token-Based Authentication for enhanced application security, leveraging React’s useContext hook to manage user authentication and authorization.",
+        "Established CI/CD pipelines for backend and frontend deployment on Heroku and Netlify.",
       ],
     },
     {
@@ -515,9 +530,50 @@ import {
       source_code_link: "https://github.com/wsrn829/ThriveTogetherDeployment",
     },
     {
+      name: "WheelWorld",
+      description:
+        "Full-stack car dealership management application to streamline and optimize all aspects of dealership operations. (Monolithic Version)",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RestAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Monolith",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Heroku",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Netlify",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: wheelworld,
+      source_code_link: "https://github.com/wsrn829/WheelWorld",
+    },
+    {
       name: "DealerDashboard",
       description:
-        "Full-stack car dealership management application to streamline and optimize all aspects of dealership operations.",
+        "Full-stack car dealership management application to streamline and optimize all aspects of dealership operations. (Microservices Version)",
       tags: [
         {
           name: "React",

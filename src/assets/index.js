@@ -42,6 +42,7 @@ import harvard from "./company/harvard.png";
 import thrive from "./thrive.png";
 import portfolio from "./portfolio.png";
 import dealer from "./dealer.png";
+import wheelworld from "./wheelworld.png";
 import tasktales from "./tasktales.png";
 import fridge from "./fridge.png";
 import coincrest from "./coincrest.png";
@@ -77,6 +78,7 @@ export {
   thrive,
   portfolio,
   dealer,
+  wheelworld,
   tasktales,
   fridge,
   aws,
